@@ -102,7 +102,7 @@ class _HiveDatabaseFlutterState extends State<HiveDatabaseFlutter> {
               const SizedBox(height: 15),
               ElevatedButton(
                 onPressed: _pickImage,
-                child: const Text("Pick Image"),
+                child: const Text("Pick "),
               ),
               const SizedBox(height: 15),
               ElevatedButton(
@@ -163,7 +163,7 @@ class _HiveDatabaseFlutterState extends State<HiveDatabaseFlutter> {
       builder: (context) {
         return AlertDialog(
           title: const Text("Confirm Delete"),
-          content: const Text("delete this item?"),
+          content: const Text("Are you sure you want to delete this item?"),
           actions: [
             TextButton(
               onPressed: () {
