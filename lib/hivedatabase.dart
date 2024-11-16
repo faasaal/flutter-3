@@ -102,7 +102,7 @@ class _HiveDatabaseFlutterState extends State<HiveDatabaseFlutter> {
               const SizedBox(height: 15),
               ElevatedButton(
                 onPressed: _pickImage,
-                child: const Text("Pick "),
+                child: const Text("Pick Image"),
               ),
               const SizedBox(height: 15),
               ElevatedButton(
